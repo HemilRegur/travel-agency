@@ -1,0 +1,74 @@
+@import "./styles.scss";
+@import "./packages.scss";
+.form-stats p {
+    color: black;
+}
+.social-icon {
+    padding-left: 0px;
+}
+.social-icon a img {
+    color: #cbd3dc;
+}
+.tour-cards {
+    border: 1px solid #dbedf0;
+    border-radius: 5px;
+    padding: 30px 10px;
+    height: max-content;
+    min-height: 165px;
+}
+.tour-card-content {
+    display: flex;
+    justify-content: center;
+}
+.tour-card-icon1,
+.tour-card-icon2,
+.tour-card-icon3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin: 10px;
+    margin-right: 23px;
+    float: left;
+    object-fit: scale-down;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tour-card-icon1 {
+    background-color: #ff7f00;
+}
+.tour-card-icon2 {
+    background-color: #303030;
+    color: #dbedf0;
+}
+.tour-card-icon3 {
+    background-color: #3cb8eb;
+}
+.tour-card-content {
+    margin: 60px 0px;
+}
+.tour-card-name {
+    margin-left: 10px;
+}
+#contact_form {
+    margin: 60px 0px;
+}
+.map {
+    background-image: url("https://maps.google.co.in/maps?q=new+Delhi&hl=en&sll=28.572047,77.069178&sspn=0.02348,0.039482&hnear=Delhi&t=m&z=10");
+}
+.question-banner {
+    margin: 0px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .tour-cards {
+        display: grid;
+        min-height: 250px;
+        padding: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .tour-cards {
+        margin: 15px 0px;
+    }
+}

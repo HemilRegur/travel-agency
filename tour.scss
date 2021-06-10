@@ -1,0 +1,42 @@
+@import "./styles.scss";
+@import "./packages.scss";
+.tour-content {
+    margin: 15px 0px;
+    position: relative;
+    padding: 0px 15px;
+}
+.tour-description {
+    position: absolute;
+    bottom: 50px;
+    display: grid;
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 700;
+}
+.tour-description div {
+    font-family: "Caveat", cursive;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+}
+.xyz img {
+    transition: 0.5s all ease-in-out;
+    width: 100%;
+    // min-height: 300px;
+}
+
+.xyz:hover img {
+    transform: scale(1.2);
+}
+
+.xyz {
+    overflow: hidden;
+}
+.tour-content {
+    overflow: hidden;
+}
+#tour_section{
+    padding: 60px 0px;
+}
